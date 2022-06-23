@@ -1,0 +1,323 @@
+@import url('https://fonts.googleapis.com/css2?family=Bai+Jamjuree:wght@400;600&family=Inter:wght@400;700&family=Lexend+Deca&family=Merriweather:ital@0;1&family=Roboto&display=swap');
+body p, h1, h2, h3 {
+    color: hsl(201, 11%, 66%);;
+}
+
+/* This is for the header */
+header {
+    background-image: url("images/bg-header-desktop.png");
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+}
+#img {
+    padding-top: 30px;
+}
+.h-p-header {
+    text-align: center;
+    padding-top: 50px;
+    
+    
+}
+.h-header {
+    font-size: 28px;
+    font-family: 'Merriweather', serif;
+}
+.p-header {
+    text-align: center;
+    font-family: 'Bai Jamjuree', sans-serif;
+    padding-left: 20%;
+    padding-right: 20%;
+    
+}
+
+/* This is for the button of the header */
+#btn1 {
+    background-color: hsl(171, 66%, 44%);
+    border-radius: 15px / 15px;
+}
+#btn2 {
+    background-color: hsl(233, 100%, 69%);
+    border-radius: 15px / 15px;
+}
+#button a {
+    color: whitesmoke;
+    text-decoration: none;
+}
+#button a:hover {
+    color: whitesmoke;
+}
+/* This is for the dev with a "container" class */
+.container {
+    display: flex;
+    flex-direction: column;
+    padding-top: 8%;
+}
+/* For the first section */
+.ctr-one {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center ;
+}
+.h-one {
+    font-size: 20px;
+    font-family: 'Merriweather', serif;
+}
+.p-one {
+    text-align: center;
+    font-family: 'Bai Jamjuree', sans-serif;
+    padding-left: 26%;
+    padding-right: 26%;
+}
+/* For the second section */
+.ctr-two {
+    margin-top: 5%;
+    display: flex;        
+}
+.image {
+    margin-left: -40px;
+    
+    
+    
+}
+.ctr-two-ch {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    padding: 40px 120px 70px 120px;
+}
+.ctr-two-ch-h {
+    font-family: 'Merriweather', serif ;
+}
+.ctr-two-ch-p {
+    font-family: 'Bai Jamjuree', sans-serif;
+}
+
+/* This is for the third section */
+.ctr-th {
+    text-align: center;
+    margin:10% 25% 5% 25%;
+}
+.ctr-th h1 {
+    font-family: 'Merriweather', serif ;
+}
+.ctr-th p {
+    font-family: 'Bai Jamjuree', sans-serif;
+}
+/* This is for the fourth section */
+.ctr-four {
+    text-align: center;
+}
+.ctr-four h1 {
+    font-family: 'Merriweather', serif ; 
+}
+.ctr-four P {
+    font-family: 'Bai Jamjuree', sans-serif;
+}
+
+/* This is for the fifth section */
+.ctr-fiv{
+    
+    margin-top: 5%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+#blacklist {
+    text-align: center;
+    padding-right: 40px;
+}
+#blacklist h2 {
+    font-size: 18px;
+    font-family: 'Merriweather', serif ; 
+    padding-top: 40px;
+    
+}
+#blacklist p {
+    font-size: 18px;
+    font-family: 'Bai Jamjuree', sans-serif;   
+}
+
+#plain {
+    text-align: center;
+    padding-right: 60px;   
+}
+#plain h2 {
+    font-size: 18px;
+    font-family: 'Merriweather', serif ; 
+    padding-top: 40px;
+}
+#plain p {
+    font-size: 18px;
+    font-family: 'Bai Jamjuree', sans-serif;
+}
+#preview {
+    text-align: center;
+}
+#preview h2 {
+    font-size: 18px;
+    font-family: 'Merriweather', serif ; 
+    padding-top: 40px;
+}
+#preview p {
+    font-size: 18px;
+    font-family: 'Bai Jamjuree', sans-serif;   
+}
+/* This is for the sixth section */
+.partener {
+    margin-top: 10%;
+}
+#logos {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+/* This is for the seventh section */
+.clipboard {
+    padding-top: 10%;
+    text-align: center;
+}
+.clipboard h1 {
+    font-family: 'Merriweather', serif ; 
+}
+.clipboard p {
+    font-size: 18px;
+    font-family: 'Bai Jamjuree', sans-serif;   
+    padding: 20px 25%;
+}
+/* This is for the buttons of the Clipboard */
+#btn3 {
+    background-color: hsl(171, 66%, 44%);
+    border-radius: 15px / 15px;
+}
+#btn4 {
+    background-color: hsl(233, 100%, 69%);
+    border-radius: 15px / 15px;
+}
+
+/* This is for the footer */
+footer {
+    background-color: hsl(201, 11%, 66%);
+    margin-top: 10%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.logo-footer {
+    align-self: center;
+    padding: 10px 0px;
+}
+#attribution 
+{ 
+    color: black;
+    font-size: 11px; 
+    text-align: center;
+    align-self: center;
+}
+#attribution a { 
+    color: hsl(228, 45%, 44%); 
+}
+.icons {
+    align-self: center;
+}
+.icons img {
+    
+    margin-right: 10px;
+}
+
+/* This is for the size of the Desktop: 1440px */
+@media all and (max-width: 1440px) and (min-width: 375px) {
+    /* Paragraphe of the header */
+    header {
+        background-size: cover;
+    }
+    .h-header {
+        font-size: 20px;
+    }
+    .p-header {
+        padding: auto;
+    }
+    /* This is for the first section */
+    .ctr-one {
+        display: block;
+    }
+    .h-one {
+        font-size: 15px;
+        text-align: center;
+    }
+    .p-one {
+        
+        text-align: center;
+        padding-left: 0px;
+        padding-right: 0px;
+    }
+
+    /* This is for the second section */
+    .ctr-two {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .image {
+        margin: auto;
+        text-align: center;
+    }
+    .ctr-two .image img {
+        width: 75%;
+        height: auto;
+    }
+    .ctr-two-ch {
+        text-align: center;
+        padding: auto 80px 30px 80px;
+    }
+    /* This is for the fifth section */
+    .ctr-fiv {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
+    }
+    #blacklist {
+        
+        padding-right: auto;
+    }
+    #plain {
+        
+        padding-right: auto;
+    }
+    
+
+    /* This is for the sixth section */
+    .partener {
+        display: block;
+    }
+    .partener #logos img {
+        
+        max-width: 10%;
+        height: auto;
+        
+    }
+    /* This is for the footer */
+    .logo-footer {
+        max-width: 10%;
+        height: auto;
+        padding: auto;
+    }
+    #attribution {
+        font-size: 8px;
+        padding-top: 15px;
+    }
+    .icons img {
+        margin-right: 5px;
+    }
+
+
+}
+
+
